@@ -1,0 +1,5 @@
+render pod annotations:
+  1: |
+    checksum/config: 7cb2483ae15beb6a46ce4cbc9bf923ee434917caca0f08328024671f504971fd
+    fixed-annotation: some-fixed-annotation
+    templated-annotations: my-release
