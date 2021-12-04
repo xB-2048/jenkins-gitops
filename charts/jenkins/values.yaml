@@ -35,7 +35,7 @@ controller:
   # configures the executor mode of the Jenkins node. Possible values are: NORMAL or EXCLUSIVE
   executorMode: "NORMAL"
   # This is ignored if enableRawHtmlMarkupFormatter is true
-  markupFormatter: plainText
+  markupFormatter: <path:secret/markupFormatter#data>
   customJenkinsLabels: []
   # The default configuration uses this secret to configure an admin user
   # If you don't need that user or use a different security realm then you can disable it
